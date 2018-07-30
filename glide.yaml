@@ -1,0 +1,11 @@
+package: github.com/chespinoza/ethereum-client
+import:
+- package: github.com/ethereum/go-ethereum
+  version: ^1.8.12
+  subpackages:
+  - common
+  - ethclient
+- package: github.com/davecgh/go-spew
+  version: ^1.1.0
+  subpackages:
+  - spew
